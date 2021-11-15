@@ -5,7 +5,7 @@ import pytorch_lightning as pl
 
 
 class CIFARModule(pl.LightningModule):
-    def __init__(self, model, optimizer_name, optimizer_hparams):
+    def __init__(self, created_model, optimizer_name, optimizer_hparams):
         """
         Inputs:
             model_name - Name of the model/CNN to run. Used for creating the model (see function below)
@@ -17,7 +17,7 @@ class CIFARModule(pl.LightningModule):
         # Exports the hyperparameters to a YAML file, and create "self.hparams" namespace
         self.save_hyperparameters()
         # Create model
-        self.model = model
+        self.model = created_model
         # Create loss module
         self.loss_module = nn.CrossEntropyLoss()
         # Example input for visualizing the graph in Tensorboard
