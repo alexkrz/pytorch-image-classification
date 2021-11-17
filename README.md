@@ -34,3 +34,8 @@ Youtube implementation tutorial: https://www.youtube.com/watch?v=uQc4Fs7yx5I&lis
 
 Paper: https://arxiv.org/abs/1512.03385 \
 Youtube implementation tutorial: https://www.youtube.com/watch?v=DkNIBBBvcPs&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=19
+
+### DenseNet
+
+Paper: https://arxiv.org/abs/1608.06993 \
+Youtube implementation tutorial: https://www.youtube.com/watch?v=ELEqNwv9vkE&list=PLdlPlO1QhMiAkedeu0aJixfkknLRxk1nA&index=10
